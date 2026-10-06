@@ -1,0 +1,941 @@
+{
+  "version": "0.3 beta",
+  "steam_app": 233350,
+  "steam_build": 215104,
+  "files": [
+    {
+      "path": "Fonts.baf",
+      "original": "4c906e0ebf24edf2f222201ca6296bd187a75a1d3614d1d909be13a01b108677",
+      "patched": "996baeb3cf3c34189e7058d1ae74523add1ec90bf89f1e55d08c2bfc2f743bcf",
+      "patch": "patches/0.str.gz",
+      "patch_sha256": "5ce48a9e9659a864a455e0b84935c322f2672d95957eb0ce1a70da03ee01d31c"
+    },
+    {
+      "path": "SOLData.baf",
+      "original": "9e604ec2b4736a99e16a4c76dee5842665cd3d138db44a8a694f105fa7ed360c",
+      "patched": "c59079684d4f22d9b482f443d20eb527419f00c4651fad55ae1bf032228e9e00",
+      "patch": "patches/1.str.gz",
+      "patch_sha256": "2682a85004288721d578799d23ab93edb1c48f5870288d969301dcd97f8afe0e"
+    },
+    {
+      "path": "LauncherData/UserStrings.xml",
+      "original": "1630ca1670d46781eee2d4f1df2b79bc4f96da8f77aef097b71ad3d87cd76098",
+      "patched": "11cea31b3fd6ac96c7d7ab49421c4966337a48ade11f5373b24e8c2fd9a51518",
+      "patch": "patches/2.str.gz",
+      "patch_sha256": "33c758b9d8efd2c05ff413299323f7d3d6a253c08979d13f9485675538fc196f"
+    },
+    {
+      "path": "LauncherData/Eng/UserStrings.xml",
+      "original": "1630ca1670d46781eee2d4f1df2b79bc4f96da8f77aef097b71ad3d87cd76098",
+      "patched": "11cea31b3fd6ac96c7d7ab49421c4966337a48ade11f5373b24e8c2fd9a51518",
+      "patch": "patches/3.str.gz",
+      "patch_sha256": "9ae9b40e07e7aae321a4f3244b671cf07bba4c6a033d8f0302f652be5188caa5"
+    },
+    {
+      "path": "Sound/Speech/speech.1.sf",
+      "original": "527df731e841a567ee1ffca67f3c1ca9ece6f8de45d08b81148efe1a6e4aa887",
+      "patched": "3affd7c0647ac457f752e963c0e56c34a67da0300f2796ff682526fd44fa61fe",
+      "patch": "patches/4.str.gz",
+      "patch_sha256": "9f11a4f7fcad3e60157d226b3434c3258fcfb0fb62b6ac9778470c347aa0d392"
+    }
+  ],
+  "added": [
+    {
+      "path": "binkw32.dll",
+      "sha256": "bbf0daa3fe169702ed9a7e102a99701730bcd383c989b32e98e8aa997f017cf7"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem.txt",
+      "sha256": "3d4d3c8dab917c6b5bb6b46fd200c3cf55ff5e143ac23d5b5d036690071b6aad"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_000.rgba",
+      "sha256": "6b017ca390bb214694c9f464f30c8732c1b73c1046a82d12199d5bd9049087e2"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_001.rgba",
+      "sha256": "b9e5159104bc7a6c1b613be66d1f9a92d8acf10762f343b6947c9ef75b45608b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_002.rgba",
+      "sha256": "925f6b5a8a4c3aae1117a85b87aadd839ce9a79ca2c35b675869fad1f5157f78"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_003.rgba",
+      "sha256": "5e4c5db6d35ac86c8b4c7968599d2c396a6df4ac13acfbcd283efa3a2eecbbbf"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_004.rgba",
+      "sha256": "fc1760daf271a79a4850fa6663ae6f20477dc4a4774999870f8b36ec1f29672c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_005.rgba",
+      "sha256": "a620740d2d01829e9150de279977994865f96095eb118a9510cb434d4ebb3857"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_006.rgba",
+      "sha256": "f985b2d6d1a5bbe711c9233571a369a43706df71218072c0159aea7a7a1c130c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_007.rgba",
+      "sha256": "fef7af0867461d019b284a60c3bcbb6af81e82d7664df6daddf259933dbb22ac"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_008.rgba",
+      "sha256": "1310cd98cd6be3bc8437fbffc31115b7ffb6148c54a1713174361d818ba8cb7c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_009.rgba",
+      "sha256": "096746f1fc552400721bafa8f0d2b572260a39637754ce9889f539abd91c36ad"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_010.rgba",
+      "sha256": "4a837e98f87a847c9e0decad63d9a2f18d259e76faafe9f3119af1c50693941f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_011.rgba",
+      "sha256": "03b58dfa6d435fb881323ec7e9764882b514223df2ed1cf89f2e2aab6012309f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_012.rgba",
+      "sha256": "a3aa8c9dc61669e42212bd2c8317fcecad30d038d9f123e5ccb02ae3f950d374"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_013.rgba",
+      "sha256": "08a8eb2382c0f62f3aada18bd5d29a07733deb49d1359aa4924a9c457064f753"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_014.rgba",
+      "sha256": "9f67f9598a4bbdca0467ef6b7e6839ece3586a64b9e04de9f46d88f919205156"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_015.rgba",
+      "sha256": "fc6c607d3fbc67da85e174e09fc854bd07e9940fa4070b2fc8407a4be55eec5a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_016.rgba",
+      "sha256": "b809ce8e381a57cad87c917b74768ef8ad274460f979d4699fbebbc9da9e119a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_017.rgba",
+      "sha256": "801c2c735bedf9381aa8f3e45531718815f29c5890a30141cd4f654d83024555"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_018.rgba",
+      "sha256": "38ac8697eac54669650675c6c4bfc353c0cb2d2e471437d633c11a8779e7f0cd"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_019.rgba",
+      "sha256": "18a3edebdab8875efc85f39f0d9c79a97490e579f89240c8a1233f23fad6e11c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA01_poem_020.rgba",
+      "sha256": "9110373198c2709c64902c1d9d5f255136cb15ef4cf99e2b5a8beba45c9244bc"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic.txt",
+      "sha256": "87c006b0dc02fe056f8f027f112cbeb08581bea758e4ad2e6286318acb20a8d1"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_000.rgba",
+      "sha256": "3e77af43c9089143fcb905f42e65adde8e8972d395fa0359d3faab49e69b5632"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_001.rgba",
+      "sha256": "be2bb8f8efb12121f433789e569e02b3e834e2889b41863d9166b64366a5030b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_002.rgba",
+      "sha256": "636da4979e35c541b4faa4bdbf90b18b0407e2378928f0850615b346f6df03c6"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_003.rgba",
+      "sha256": "a6fab815bd817f287eb864481034f57d4fb9bc69fd6edfa85055138c1f29596a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_004.rgba",
+      "sha256": "4af614cfe9b1976de9985c996e4b05445d8aa22541230529605320fdf400b42b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_005.rgba",
+      "sha256": "22a5269d7203e82e684c2331c3cc71552646ee8735e2338619e25421afb8568c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_006.rgba",
+      "sha256": "bd51b018de62b9ed8697b455067290b7ef39e66eec76a52737ae0273a899f25f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_007.rgba",
+      "sha256": "48a36eb3fbcaad5586ae6b536d47a1524c08d75ae35f5d80d2c22e44d9c219e4"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_008.rgba",
+      "sha256": "04f35f8eeb3593e9abcaf1b58b87891e864e97f213d13944fc7cf60b55bc5614"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_009.rgba",
+      "sha256": "5986dfa60d45ce315f18c9d9dd29e1bd3c22c64016952b929f54086554e303fc"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_010.rgba",
+      "sha256": "43b94d9afd400b290da845f7dce5826c0bc54baf5fae3f93f7e8d79963370c5b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_011.rgba",
+      "sha256": "43c64fd7bc688c54fbbc92c442758976120c25e8cd84cda5370b03587fec03a5"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_012.rgba",
+      "sha256": "c5ce0953ef152cac7193982ef176c2a636a7d04ed013c69ec727c934d2443725"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_013.rgba",
+      "sha256": "901cc811a9473e782dcf229c34d95ee0d4ff1fe41e2b611a727e4800f907ba1d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_014.rgba",
+      "sha256": "3978f5412c8f6a1dfdf70ca68e956d24e1c0b383457d87187021f4bf1edfd57d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_015.rgba",
+      "sha256": "5fc579924d3579f8edd9bc57e2f46b240c02ff9979274ce4d2fa5da46c700f96"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_016.rgba",
+      "sha256": "2f4045624cdc5a4260ed9691d671c4bd49dcefb7c081122728497d2cbc2ae9e8"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_017.rgba",
+      "sha256": "92e79b58fe53d1accc110ddd2a9261000c25c7d6990e1f54556eb08a44170712"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_018.rgba",
+      "sha256": "6b16bf71465ad3dce01d5eefa597d0ce49d75fd6382da7ec3c995aee0f72ab6f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_019.rgba",
+      "sha256": "79fbc3f28d2f8dd82021973850e13806bcab88a69d02e2c25ce8bd68a58db729"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_020.rgba",
+      "sha256": "3484b973c5751a6bbaa4d0f207eb2e584edd2544955b7cc2409b17617c67a68c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_021.rgba",
+      "sha256": "c433109a01a3690e6e119e31195078bd863f26209d24985f8fe6adaa47c1c6e7"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_022.rgba",
+      "sha256": "a6ff1344a7c85fe764fc0c2c1714f6b3c3084531404cc2e8399b3725ec2460a8"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_023.rgba",
+      "sha256": "641883b9d3a2339ef7d8c5362347f883e526298c9bc614a6c8a04efa36e76aa6"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_024.rgba",
+      "sha256": "a97c812efa5bb56c00e8116a156e99fe1d3724c62960f7d8533ee48f3ef70b97"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_025.rgba",
+      "sha256": "6878001743264b9b3c8164da557bb32ee7cf2e5c681fad75c340a2f9a1cd3968"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_026.rgba",
+      "sha256": "708d3957005abaaa48d76675b411ba3fa68ba8859d00a409ef5b72fdf6dab143"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_027.rgba",
+      "sha256": "0196f351c92fbace14b4a8665a70705440d6c29f997874fdbc18626c5ba47d8a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_028.rgba",
+      "sha256": "7aed81ef5c6d508b5e13b58cac4b678a5938740176da41ed598e2d2bfe1fcb82"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_029.rgba",
+      "sha256": "bae112eeaae174b16f6c02be338384a157068dcab427cd291213cd06cb32af21"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_030.rgba",
+      "sha256": "eb733a29761e9d7629908988e85cf2205b228bf41c5700858939858c1f431a72"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_031.rgba",
+      "sha256": "754d73620cd315229a346a8de7eaca9801584dc8a54828dbc6e3b9407005be0b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_032.rgba",
+      "sha256": "afdda289ce60060b0503cc4831568da6d4bd4607f26ea332eb272cff222d31b3"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_033.rgba",
+      "sha256": "c3c03cb145410a2451314a1307a0be77b5c9006c0045c9e77d67bdc07415b72d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_034.rgba",
+      "sha256": "efae4afc9a949bbc0602dd1b1ea4d135963f3e6603ab83b3b395c55e5a14aa7a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_035.rgba",
+      "sha256": "a053439159ad4d8ea6143b60c74fb98f116729cf30a8af11ab56898bb3cd0450"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_036.rgba",
+      "sha256": "1c790cf8367b0d31934c68b67f69aa1b39267d361dd38291a784817bdbe4332a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_037.rgba",
+      "sha256": "0be6ff356744bd18a26ac0b4c68735770d42796da18606561c51c670675b8be0"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_038.rgba",
+      "sha256": "3cdfab78bb412c0241d5c7d10e0c196e23597f5ce61e5f08d8751d9eb44b699b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA02_ic_039.rgba",
+      "sha256": "b532a831c77947c40cf2348d6d66e39612f759c29d96a6a2b647185a015d8522"
+    },
+    {
+      "path": "SudekiTR/Video/FMA03.txt",
+      "sha256": "aca4aa9a41b3ee5017c9edb86a60436826258ef954b7a9a69caa1aa5b6277ebb"
+    },
+    {
+      "path": "SudekiTR/Video/FMA03_000.rgba",
+      "sha256": "a0ec3a05069a9b726beca49170048343bd61e2bba60e5e026abdb0bf3bdced4e"
+    },
+    {
+      "path": "SudekiTR/Video/FMA03_001.rgba",
+      "sha256": "db1d6687d840e13da412e76e1ac09acdb9524024918e37a744daf7e82690be92"
+    },
+    {
+      "path": "SudekiTR/Video/FMA03_002.rgba",
+      "sha256": "b5cee0ae5870e91b92a60d8d3503d986bfc5daf4e1d65e1726804de50d6e0a43"
+    },
+    {
+      "path": "SudekiTR/Video/FMA03_003.rgba",
+      "sha256": "99e3af9fdca358382bd574092f1d4969fa6b3cecb14e009184bb0581d4b57b36"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A.txt",
+      "sha256": "080bf7555c8ae4e7bfbc4f6a88948a578f2aeb41fcd47abc78f32f54e4366814"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_000.rgba",
+      "sha256": "8287403e66be06f8f0161394cbe96864deb68422974f6fb5de0c2b6a531d8538"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_001.rgba",
+      "sha256": "bfbf1a5eb0cc6eb6f250f261c1c4ca8c03d83ad27b948b0535610a77c461fdb8"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_002.rgba",
+      "sha256": "3f57f5a2f4f82cd87a25783b498e2734bf518c83c884219e80922b5d565df1ff"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_003.rgba",
+      "sha256": "07964936631475b7e97bf69219faa220cbc2018ced16523b99541a97ab677a79"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_004.rgba",
+      "sha256": "66f6bf6cdf798f5471bc0cd1b49c2ff194a06e0e0390826ad08560b86a9995f8"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_005.rgba",
+      "sha256": "a0cf7f9c406337aa601be94e86c696b7230de162601727405823d9ed7bb9a84f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_006.rgba",
+      "sha256": "d0c96b80d4f6b43382abc62e9c3a34391ffce0bdcb669b7f0d9efa8cf741491f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_007.rgba",
+      "sha256": "a34fa612badbc9f95078e15fcb42580cb61234e03ebe82f3cd4977052bb7537f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_008.rgba",
+      "sha256": "4d8ee46b97f422ac2ac36bb3b9f2b971fbab5947decb164613a36b0351333a19"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_009.rgba",
+      "sha256": "ced17d219276c11006fc54b4c5025df84003ca7e3b46d3fd83aa35afd1787988"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_010.rgba",
+      "sha256": "e022966dffbc5704a5a4f0e78acc90a09cbfe260c01563473866ddce25bb3ed7"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_011.rgba",
+      "sha256": "e6b11df3f71b46f9672ff1ea6be3c078e0e9db33925887e03f4643e6d65f4f3b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_012.rgba",
+      "sha256": "ca3a1a0848a03e51267058c2db1499b4d3d968a0bd0a6b2b6fe1067ac3c8447b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_013.rgba",
+      "sha256": "a6e798080686968f2ecdedda76dbce1a08b133e2028c79a3a025ca8c9f3d9e6e"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_014.rgba",
+      "sha256": "fc99076bf999b32a8006cb7fdd8e47d891e3dfdf9b9d762a1812369042f25242"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_015.rgba",
+      "sha256": "cc932394891debf8b2cb04105a216b2769d5ef6653854705813b4f4074668545"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_016.rgba",
+      "sha256": "42caf702770770469c99a0e40518fff00cd8ba32369447ce12d54c246b00adac"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_017.rgba",
+      "sha256": "1a52223c42b5888d11b2ff3a5f8d3857655969b2ae39ac30f29378328dd0989c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_018.rgba",
+      "sha256": "bacfe8971ca1cd8d9d5d9f88b8f97b53ba98383a509c249aca546c22b82dcb5f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_019.rgba",
+      "sha256": "e088995cc792eaf418ff9a073ed73d92ef1e2f492043bfddf31545e1bd7e0ed7"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_020.rgba",
+      "sha256": "1fa549e11929ada8c71855c6bd54fbe65b2c3d2302f1b15101e42460e8fe452b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_021.rgba",
+      "sha256": "7226469645b946f1335c2a6e5da2e457c57ded9d1951b16b96e4bac6e1203b58"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_022.rgba",
+      "sha256": "f8a0f55c18adbf4bfc693b7b2bd8176588f6e4d8ebf0773c84b5b376f306fcd9"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_023.rgba",
+      "sha256": "ad63563b1abb9926f08480675871876147051c8d4b2939d89995d7f3a7c9de71"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_024.rgba",
+      "sha256": "4ccefbedd71fa20d0d4f2703808e69852357951ee54f46d83549f0118e0dc3e8"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_025.rgba",
+      "sha256": "7f4e3423af4062b206037c918395fbf1ff6c1238182a00cb182f8dc79eabe1a1"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_026.rgba",
+      "sha256": "69611351829d656eb6b1af8b0135c1a53e2958c27a7f62c592e1c8edb5c224f0"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04A_027.rgba",
+      "sha256": "d53555836786bdfc7e88dca10e28d8ee20d50a53788615f8ef1f6ef4a9144315"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B.txt",
+      "sha256": "a9e41e4e6a86496d21fd14bded8e0ba98d8d6709d2ea47e5eda91d31634512dc"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_000.rgba",
+      "sha256": "84d5585f6c706984a93c440e2230bfb7ee8533d8871e10d433487f47d5ec54df"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_001.rgba",
+      "sha256": "571904e09262da2776f6ad8037eaaa6af1a4baea82d6a8baf5997c2968f07184"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_002.rgba",
+      "sha256": "3b22afe7b0c72fcba3a48ce2224930498852462a17eaa5513e839085c7e71eec"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_003.rgba",
+      "sha256": "5d5a195ff7f6ac37a34f58d8d06ff207e2db79c73dc3be4a6439fa4afaa273d6"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_004.rgba",
+      "sha256": "ab3c19c05cb40d237c54cac9decb9ca21e71974955af84147f23442c29878553"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_005.rgba",
+      "sha256": "01d0f9cffd45070ad28a2af5a01c3b2c8d4ea3df83c979d8eafe5dcf26b486cc"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_006.rgba",
+      "sha256": "317ec1b4362471ccaafb9b3d9d6dad11faaa27b6b888b23d942123beb532c9c9"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_007.rgba",
+      "sha256": "6025c7a9e6a4e6c16c0130c3db204dc2e70e8896d4a4b34b28e68576efc4541a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_008.rgba",
+      "sha256": "2874a5db80cb4b1b013453f334a3f59370930a977041b4916709884fa8e6578e"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_009.rgba",
+      "sha256": "06209cc77e4847e2f61d5247c8c5e7b640d5cf46f85f09596689d6a4bdec33b4"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_010.rgba",
+      "sha256": "bc26a8d0acf2398dd3ce640d8906203068448c011d094828d991f870c72b9f31"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04B_011.rgba",
+      "sha256": "9991040bc99cc461a644dd0f49b1076c3ff4b81cbe76fcaf5d28ea2e89bc5e85"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04c.txt",
+      "sha256": "9b85f226da3398c03b7891f2086c2753f4ed2712ca593c96a8f913649f0c314b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04c_000.rgba",
+      "sha256": "17d409d5704ddd196b6c582aca0d9a88955400401a95dc661e2cc64aa3065360"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04c_001.rgba",
+      "sha256": "61793b5b99d9582232a5e85996fb4bb751dd7ac5bdbddd032201900505e631dc"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04c_002.rgba",
+      "sha256": "7b74fd8ef03dfb0691f8d32f8068c3f87a0429cc371dfe501f09edc695c1d660"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04c_003.rgba",
+      "sha256": "e66baf98c9ef30a7b3e9f8b7807da2bd283112ff1d92f9acd03e4d22842d5dac"
+    },
+    {
+      "path": "SudekiTR/Video/FMA04c_004.rgba",
+      "sha256": "d548c3987d500c9ad9b26f33f119301d43712fa397460737f61bc5c9b3834fb4"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB.txt",
+      "sha256": "535cb74b4357c99d4ecff7ea59536607921c6a275adbdbb423888bde271709c1"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_000.rgba",
+      "sha256": "6fba86d9f50732674dc92c5d566b494511bc3bbb5b57600f002211bf17a205d5"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_001.rgba",
+      "sha256": "534434caad52f01393a9550be892c245ed400a20bd9e60511dde5bace814425a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_002.rgba",
+      "sha256": "54ef64d195e0d6aba3a7b16fcaa213af2e440d2f99cc7f87d0e572460499fbcf"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_003.rgba",
+      "sha256": "bb32c4362c00180ccf241eb25c0a71a4dcec1d8a46fbf733bf08116bb9eeb3a1"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_004.rgba",
+      "sha256": "eec56d656b66296cd03fd1f864af61cd07733e070abfad79d0ecd0850e62c56c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_005.rgba",
+      "sha256": "cb4ef6f231a3b820dd48e16cdfdbd71ce2910917f68b8952b2e4ccd3ebcc549b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_006.rgba",
+      "sha256": "462a0b2229dbbeb5f2232fbd7b1467bb61765d181580f3dde0aa2db89aa22fdd"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_007.rgba",
+      "sha256": "9169abca18c63906e39ea2092c9451901fa0ea4d8b62f8670c33176d055f7421"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_008.rgba",
+      "sha256": "beaa7ee0d9beca8c8715c208057662ab1d461a582513b596a70b9ba6b9d563fa"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_009.rgba",
+      "sha256": "3e09b74a377b685fac54470483de64305cdcddb6052653b840f8e72f651a2184"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_010.rgba",
+      "sha256": "4cf1e4b8eebd3a51c6c423b391e29fdb830271b1c6409ed145e1602118503ac2"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_011.rgba",
+      "sha256": "59ed28cc3d48f4a25b3eb2cb882c8de2ed5647032043ef083ef92a32f820f2b2"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_012.rgba",
+      "sha256": "a3b6a5a3d8a0d48bc9911858ae4b331e883d8c4d106ddeadc28bd2ed711352da"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_013.rgba",
+      "sha256": "1aba1ca09c2c14611ee7d5d04fa3a2f597a76e102dbbc020d817740d986023e2"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_014.rgba",
+      "sha256": "3ff9b09aaaca2db3cb8fda7cea5de3f8c7ea8e3146f6929ba2aa6c3018679da3"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_015.rgba",
+      "sha256": "3f93b4eb94dd48882922b2e33f083d265f277ba9b39b7705b9228fb3fb3a3a0c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_016.rgba",
+      "sha256": "f28bd6eb236597c7df825a992d1736464c2535ac509fe9334a5453d1bac0e332"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_017.rgba",
+      "sha256": "b882f61c57fc75277f211e58855633d1fe9a8f78c6cc2ebf529fc84082a906cb"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_018.rgba",
+      "sha256": "209cbfc56883fdf53290bcabb60aaa584c78a977899df20f245d8876eab3350d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_019.rgba",
+      "sha256": "428f9c0425a15404a643740504dd324d366c30e58a68f22065ac536def109227"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_020.rgba",
+      "sha256": "a40b39a597811820c9ead358fff9db44156cc545fc67674d28050ad9759d096b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_021.rgba",
+      "sha256": "c0852a6b10de14a12dc0b5b4a0de8e1412eeb8e69a7bd05331e3cfd3f32329ae"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_022.rgba",
+      "sha256": "fd772c94501ace0d0122655b493e03fc9e41496b94e02ccd41e4f33f66ab6bff"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_023.rgba",
+      "sha256": "958986c8622f0b875f6feba510c63d2fd37a6bf53792a5a3166af49eeaff84b9"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_024.rgba",
+      "sha256": "ccc557e46c11970902c29baf094c78bdf1b7633af2a124a053ad99c4c6750c30"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_025.rgba",
+      "sha256": "1f785e96ca3fd9e9a378ff239fcbd852570c5bc8c7190dd813ab5784f20d8df2"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_026.rgba",
+      "sha256": "9a97c7711e3afba2eabdb89863523be080cf9d9ff1929c610ce81d2b3f28f3b6"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_027.rgba",
+      "sha256": "54380729219c1d218a22a5a324cb7ff8868f9ab53404c26d8be8084c79a0980e"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_028.rgba",
+      "sha256": "e715bfddab88e64ab9dbb911f589114fe63ec6f53f28969329a9055445138a0d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_029.rgba",
+      "sha256": "e5640072f2bff9b51ed6c5ab8aca890f16742d50bf5aba9886b5634e58630466"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_030.rgba",
+      "sha256": "c42932167573f3864e5066f80fc22badb2e5cb272cd1f26184e82e3d3879aeb7"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_031.rgba",
+      "sha256": "f5d8e9dabbbbda5ba397e5a512c387a59d7279e3b0680708519e09c1c55f1ca6"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_032.rgba",
+      "sha256": "51a299bd9c6f924178902299478433f681ddeadea12f396627c4001152246984"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_033.rgba",
+      "sha256": "a9b87af4cbf330c4b0a1cd095dcc0050a680e8ebbfb7e978114f9579b9c17c8b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_034.rgba",
+      "sha256": "20b375f47dbc5a00512e55ae205b1a17b9cf5e75fac82d8c87b02faea4b17a00"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_035.rgba",
+      "sha256": "bc5ce0786a06af3c0774f04f7179d0abf3d73b1930974cf532671a2030eef186"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05AB_036.rgba",
+      "sha256": "c508e1fadc262d76ad80b1a456364d6df683ab2f201f7b083548da0d5b32f650"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C.txt",
+      "sha256": "e36218608081bf09230363d857a624a5e11056cbc6eaf297453fa259c8b8b9e7"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_000.rgba",
+      "sha256": "1f114b5407e4fab092d767dd6351860702bc947a2214e18c0123533754428976"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_001.rgba",
+      "sha256": "c1e70000391764f702cffcfd47b912cc84eae6636dc14e2acf56980823ca4e3e"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_002.rgba",
+      "sha256": "0bc883733c339095a2cbdc891e95a5bf494ab0d8a1e17bc64694bd86db347b1c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_003.rgba",
+      "sha256": "5873e5ee08430167e8011d52b88879551f745d2d924b6d2644354847e13530c5"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_004.rgba",
+      "sha256": "f33fbe5a054b51459d88b9fdaf9cf79c51f466f65dd112226ad94660b9e12b26"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_005.rgba",
+      "sha256": "22c0dc4b766d6fb543b7ad0d4fe5c307379ff0eb955053559e9c253f80521128"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_006.rgba",
+      "sha256": "d5239d78ebe0043147691287ef3758dcee02f7409047d441b58e5b72cf462fa8"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_007.rgba",
+      "sha256": "ff66622b92dcca6cd80d36d7042c7e21237233d660603287393359f33a34f0be"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_008.rgba",
+      "sha256": "5f2c099e009123e7d4c1953cebb708d23376bd7c6b31a6722a5553343076b472"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_009.rgba",
+      "sha256": "7f6a2cac319f13e66233e35f9cc9fc7dea23674f2ea5f8fff9726eeb6639630f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_010.rgba",
+      "sha256": "ea9d2876e8c44d87236e754eefea3b946a3521c2e9396147fd8938d54988ce75"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_011.rgba",
+      "sha256": "553c552e0916ca7abf996a0b238eef645dd195a5704a31d86fdd409f4223756d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_012.rgba",
+      "sha256": "cbda4e1bca5019ab8afaa8962a3a71c8719ccd3a6bc28749e767f696b60256d7"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_013.rgba",
+      "sha256": "057ced2022599e761cdeac88a7dc4004c1080f0d9e7307a5b5f848a31c22ea65"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_014.rgba",
+      "sha256": "38c4617573bb9fa4bccf07523292a857fde0f5d9307868b934fa6e9e5a3c702e"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_015.rgba",
+      "sha256": "ffa51c4c153723af3eef4505cd5616d33c210022959c7ed83b6fa5434af735b0"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_016.rgba",
+      "sha256": "ce75a05f927fcf6a4d11a15eee8ed7c19f63908903678a4072ff7f9fa69fe82a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_017.rgba",
+      "sha256": "b9cfb4cc8b3af191956cccbde3eec8a8eab00ff4d1aa3ce449782e141e1b1561"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_018.rgba",
+      "sha256": "af7316f07860be72333a8073c97963926361749afd05bd8ff6044c60f5e65799"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_019.rgba",
+      "sha256": "dc8e968bd64b9d538a7e139620e02cac7f64b39eba90d81ebd5c7e1b7df92e3f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_020.rgba",
+      "sha256": "1497c039adca68df089a6d6c4963ce9bc02435cbbe115cfc85d12c93d4889969"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_021.rgba",
+      "sha256": "293bdcc79c8d6e0babddbe14a802822c28283965955f6ba8d97069676904ff0e"
+    },
+    {
+      "path": "SudekiTR/Video/FMA05C_022.rgba",
+      "sha256": "8ac43697429f84fb44ea567187d5d90f66f96da2bf7b9fba87755ac35ddc4ffe"
+    },
+    {
+      "path": "SudekiTR/Video/FMA06.txt",
+      "sha256": "3da321b74ba2677453b2b171a3b541fd853fab3bd312aff1985c2b02ffe04a9a"
+    },
+    {
+      "path": "SudekiTR/Video/FMA06_000.rgba",
+      "sha256": "2e621fb33a62d031a12dc62fbc64c69ed09c99d98bda90913d4d10397cc9a1c9"
+    },
+    {
+      "path": "SudekiTR/Video/FMA06_001.rgba",
+      "sha256": "c1fc831fd82693427137b7f844f53a6c20ceb141213d362e674d433939999ed5"
+    },
+    {
+      "path": "SudekiTR/Video/FMA06_002.rgba",
+      "sha256": "da92413fc7853d3ff83c3e5a631ca6a1c0435f00f03bcd7c1f988bcaacb6f820"
+    },
+    {
+      "path": "SudekiTR/Video/FMA06_003.rgba",
+      "sha256": "80cd6eb278c3d8aaa3312a9776e72c402ffd435211fb29a64dd8b7898c78a6a5"
+    },
+    {
+      "path": "SudekiTR/Video/FMA06_004.rgba",
+      "sha256": "75d4db0eacda1f05757777e0107b285e13dac34c11214151c476d4f633f278b9"
+    },
+    {
+      "path": "SudekiTR/Video/FMA06_005.rgba",
+      "sha256": "b9640b8ace9ed473cc2f7023689d92c1f31785042b215a9edc160fc31da64928"
+    },
+    {
+      "path": "SudekiTR/Video/FMA06_006.rgba",
+      "sha256": "085c1aab98b9ed4621b4df889669218dbf2de138e8997d2bbf1c9a9eb6aec498"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07.txt",
+      "sha256": "d673d1ab5fe28621165091b061b7f24660b9fa1ef98eb1feebdc30e20db35c50"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_000.rgba",
+      "sha256": "bb13e753e70d8a4522e1d15e93f5e87f3545f60ddf1bc25d81218d1803a1438d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_001.rgba",
+      "sha256": "1422e1c779469a307e1fa565ba279e76954578b3ae94473c98b3df955b239080"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_002.rgba",
+      "sha256": "02c0c37bc3606963ba0d87fcb02f0d0c558e7f2961d4d83c123fd865ef64ec60"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_003.rgba",
+      "sha256": "bb74385184b8be672b6742addc152e3ed44d371de44589e806973ee516c07fa0"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_004.rgba",
+      "sha256": "38606b7ba1affbc8895a994bfb3354ba6c78a42b3d434923d53c1f14ce395495"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_005.rgba",
+      "sha256": "1ec91e3086fb506c0d72884720a6687bbc22695ff2a00d4e3f0ef7035e57efcf"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_006.rgba",
+      "sha256": "69d9a329053d5d7003f579d91702881807a2798e82683e8e6f533e891289b69d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_007.rgba",
+      "sha256": "3923ff54f22209a88996d05a59d12f46f4d646f35405297e4ee846816afe8518"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_008.rgba",
+      "sha256": "4461106d820c188983112ebaab222384d95b786d2c095eaa87d6269d481d859c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_009.rgba",
+      "sha256": "12c85ff622c2a1de96644a48854e98efe25afbf894001a77df5aaede4ab2db8d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_010.rgba",
+      "sha256": "7c81460456f4f233ae18d469e21578dd9beaad8b03f2b9f0b5d54254cc9b3fef"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_011.rgba",
+      "sha256": "9022bea6326abc24fff60c22224ce8485acb243be0ab79f6f417954ad2186872"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_012.rgba",
+      "sha256": "1e5642f33f6d5c18df0d6e517b90742d76a6714b5be6d691a2b830662d5c9b49"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_013.rgba",
+      "sha256": "ead4f8ea9744b05412c8df69e5e3a7d3aa5e410780d4eab81c9d9de69db367ff"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_014.rgba",
+      "sha256": "945d37b9ef2d37d1b599cdf7f46117f4dbd656ccbdb96dd2fbce2f6c05e01cbb"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_015.rgba",
+      "sha256": "a9b3592e21fe9218bf07abcf73e75c4645cc32d4025b3e36fabde8adb59d9bbe"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_016.rgba",
+      "sha256": "a94e05e207abc2ee61ecdb283cbb20a4588c70816f58852408196f569ca24e78"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_017.rgba",
+      "sha256": "ea4e29c59b2a54545d17603bd1aebe9ea4530a5320d121077287548a3d6ce2a0"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_018.rgba",
+      "sha256": "d25c88ab56b7bcbb2c69d64ce98ea14a321cb8b0550df9929170f76377ec38fe"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_019.rgba",
+      "sha256": "15cfea85beeff46a6f747f0dbc20044d1bcb2e98eaa61b677f126fbb838ce3f3"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_020.rgba",
+      "sha256": "fb35fc05f65cca58fed0e5a004c39727dbdc9a4f813c2d8bac9d5d2256289a9e"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_021.rgba",
+      "sha256": "41af02b9f671180d1f7a0b93c73f87e739f1f51c3283f27008564e923ce2298d"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_022.rgba",
+      "sha256": "5edeb0afbe3338d9fc3b1d33cd6dce0c9a009c07fb73f61d2e726a03e4c28aae"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_023.rgba",
+      "sha256": "ff2a9505dfd7a8fa316f5c93103fe12a2b3931937a08e4f2fc64a4e3860870f2"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_024.rgba",
+      "sha256": "0cd452ebc626523e0925a85c6f507b418be86462e8f86ab64168e91cae118523"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_025.rgba",
+      "sha256": "7ac56e8ff7b2e8ebd4bccd064abb57044f7935ce6eb0b9f56ccfcdda929a891f"
+    },
+    {
+      "path": "SudekiTR/Video/FMA07_026.rgba",
+      "sha256": "e395a315ab802a22d60308d7b7738531d51fd4f0549123b1e56a9f32a36b36e0"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809.txt",
+      "sha256": "d4fcaa4a05f005a96a7348769a1cf55928ea5476bce92d764692f559f1dfb38c"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809_000.rgba",
+      "sha256": "117b8b6c19d33ffce62c33ece1c0665ee903e3de373c04c431368307af1863c2"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809_001.rgba",
+      "sha256": "70a106b5d30401e2779b4873a8ab8c52d2c64ae17e91551f9b0f2fc2f26211bc"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809_002.rgba",
+      "sha256": "27dc33edb2a6df072ae5f6b55eb7a33c168669feaf2c438126fee24233c763cc"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809_003.rgba",
+      "sha256": "3b41521d05977af953a8b1eb205872b97b28420458fd5c9c8a28af79cb3253c4"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809_004.rgba",
+      "sha256": "9865217b4bbe3489a28b37837e3a590e0627c88cfec6b27f71272f8725bc549b"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809_005.rgba",
+      "sha256": "ea4fe3e7ed7fbb34bd4bdb840d7842cc6ef656d9c5ba47f651bff75ee343ffe9"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809_006.rgba",
+      "sha256": "3c84a4fcf54784bf807deae6d43c8451260d8c42425a712a285d7f99d88271c4"
+    },
+    {
+      "path": "SudekiTR/Video/FMA0809_007.rgba",
+      "sha256": "42e1298959b64ec1d637525fdda3cf55fb8510594eb01c7499219a486314c757"
+    }
+  ],
+  "original_decoder_sha256": "c6c06e2d21f2179f0b7fbe829a4b17a7b371440d2c679253ec86b64d421185bd"
+}
