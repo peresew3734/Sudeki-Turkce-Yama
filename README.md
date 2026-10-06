@@ -1,4 +1,4 @@
-# Sudeki — Türkçe Yama 0.3 Beta
+# Sudeki — Türkçe Yama 
 
 **Menüler, oyun metinleri ve ara sahne altyazıları için Türkçe çeviri paketi.**
 
